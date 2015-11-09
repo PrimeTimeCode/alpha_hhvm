@@ -1,4 +1,4 @@
-FROM brunoric/hhvm:3.10
+FROM cook/hhvm:3.10
 
 RUN groupadd -r alpha \
   && useradd -r -g alpha -G sudo alpha
