@@ -1,4 +1,4 @@
-FROM estebanmatias92/hhvm:3.8-fastcgi
+FROM brunoric/hhvm:3.10
 
 RUN groupadd -r alpha \
   && useradd -r -g alpha -G sudo alpha
